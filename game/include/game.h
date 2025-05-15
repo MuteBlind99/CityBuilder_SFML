@@ -6,16 +6,9 @@
 #define GAME_H
 #include <SFML/Graphics.hpp>
 
-class Game {
-    public:
+namespace game {
 
-    Game();
     void Loop();
-
-    private:
-
-    sf::RenderWindow _window;
-    sf::Texture _texture;
 
 };
 #endif //GAME_H
